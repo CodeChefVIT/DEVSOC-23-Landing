@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: url("../src/Assets/Landing-bg.png") no-repeat;
+  background-size: cover; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background: #01020c;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #01020c;
+  border-radius: 0.5rem;
+  z-index: -99;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ff579a 0%, #ff00b3 55.21%, #ff579a 100%);
+  border-radius: 0.5rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #ff579a 0%, #ff00b3 55.21%, #ff579a 100%);
+  visibility: visible;
+}
+
+@media screen and (max-width: 1250px) {
+  body{
+    background:#040724;
+  }
+
+}
