@@ -55,9 +55,11 @@ export default function Landing() {
   return (
     <>
       {/* <Navbar /> */}
-      <div class="side-fixed-btn hover-change">
-            <img src={discord} alt="" />
-        </div>
+      <a href="http://discord.codechefvit.com/" target="_blank">
+            <div class="side-fixed-btn hover-change">
+                <img src={discord} alt="" />
+            </div>
+        </a>
 
       <section className="hero">
         <div style={{ zIndex: 15 }}>
