@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8bf78a5a.css",
+    "main.js": "/static/js/main.98cdc1c4.js",
+    "static/js/787.c02d9614.chunk.js": "/static/js/787.c02d9614.chunk.js",
+    "static/media/hero.png": "/static/media/hero.5e9eaf1db558de104e1b.png",
+    "static/media/Landing-bg.png": "/static/media/Landing-bg.98557e06acff8a93b8bf.png",
+    "static/media/timeline.svg": "/static/media/timeline.e3f879bd245c33be64c335067cd86667.svg",
+    "static/media/Astronaut.png": "/static/media/Astronaut.88d40180ee8f4f4ded30.png",
+    "static/media/FAQ.svg": "/static/media/FAQ.d1d6ce4d295ea7f48b97d296e43ca6cc.svg",
+    "static/media/rocket.svg": "/static/media/rocket.2c23ed69f2dd3d8e8488fd07614f5a23.svg",
+    "static/media/cards.svg": "/static/media/cards.142bd8336880e71c08ec2254df177f89.svg",
+    "static/media/title-cards.svg": "/static/media/title-cards.f658585a9f7cad2ff690776e4683c805.svg",
+    "static/media/Timeline.png": "/static/media/Timeline.1a53f190695694ca1eb7.png",
+    "static/media/logo.png": "/static/media/logo.b7a93c8a7bd02accd255.png",
+    "index.html": "/index.html",
+    "main.8bf78a5a.css.map": "/static/css/main.8bf78a5a.css.map",
+    "main.98cdc1c4.js.map": "/static/js/main.98cdc1c4.js.map",
+    "787.c02d9614.chunk.js.map": "/static/js/787.c02d9614.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bf78a5a.css",
+    "static/js/main.98cdc1c4.js"
+  ]
+}
