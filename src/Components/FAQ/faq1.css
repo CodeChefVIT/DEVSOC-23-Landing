@@ -1,0 +1,42 @@
+.accordion {
+    max-width: 800px;
+    margin: 2rem auto;
+    width: 800px;
+    color: white;
+    border-radius: 8px;
+  }
+  
+  .accordion-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #2483a1;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .accordion-title:hover {
+    background-color: #2484a1d5;
+  }
+  
+  .accordion-title,
+  .accordion-content {
+    padding: 1.5rem;
+    text-align: left;
+  }
+  
+  .accordion-content {
+    background-color: #121212;
+    border: 2px solid #2483a1;
+    margin-top: -20px !important;
+    margin-bottom: 5%;
+    border-radius: 8px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .accordion {
+      width: 500px;
+    }
+  }
+  

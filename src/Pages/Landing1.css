@@ -220,7 +220,7 @@ a {
 
 @media screen and (max-width: 1250px) {
   .hero {
-    width: 100%;
+    width: 100vmax;
     background: url("../Assets/hero.png") no-repeat;
     background-size: cover;
     background-position: center;
@@ -228,7 +228,7 @@ a {
   }
 
   .features {
-    width: 100%;
+    width: 100vmax;
     margin-top: -10%;
     background-size: cover;
     background-position: center;
@@ -306,7 +306,7 @@ a {
   .faq-features,
   .spon-features,
   .footer {
-    width: 100%;
+    width: 100vmax;
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -317,7 +317,7 @@ a {
     margin-bottom: 20%;
   }
   .timeline-features {
-    width: 100%;
+    width: 100vmax;
     margin-top: -60%;
     background-size: cover;
     background-position: center;
@@ -337,139 +337,5 @@ a {
   }
   .footer {
     margin-top: 0px !important;
-  }
-}
-
-
-@media screen and (max-width: 786px) {
-  .hero {
-    width: 100%;
-    background: url("../Assets/hero.png") no-repeat;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-  }
-
-  .features {
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    height: 150vh;
-    margin-bottom: -100%;
-  }
-  .showcase {
-    margin-top: -30%;
-    height: 800px;
-  }
-  .showcase .container .heading1 {
-    padding: 50px 20px 0px 20px;
-    margin-bottom: 20px;
-    font-size: 200px;
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: 800;
-    font-size: 2.75rem;
-    color: white;
-  }
-  .logo {
-    width: 150px;
-    height: 150px;
-    margin-right: 2%;
-  }
-  .logo1 {
-    position: relative;
-    top: -235px;
-    z-index: -1;
-    opacity: 0.5;
-    height: 250px;
-    width: auto;
-  }
-
-  .timeline {
-    position: relative;
-    top: 195px;
-    opacity: 0.5;
-    height: 134px;
-    left: -100px;
-    z-index: -5;
-  }
-  .about-text{
-    font-size: 16px;
-    line-height: 20px;
-  }
-
-  a {
-    font-size: 12px;
-    text-decoration: none;
-  }
-  .button {
-    padding: 12px 20px;
-    background: #37abbc;
-    border-radius: 8px;
-  }
-  .about-head {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 32px;
-    margin-bottom: 0;
-  }
-
-  .about-head2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 200px;
-    font-size: 32px;
-  }
-
-  .about-text {
-    margin-right: 10%;
-    text-align: justify;
-  }
-  .logo3,
-  .logo6 {
-    display: none;
-  }
-  .logo5 {
-    width: 80%;
-    margin-top: -2%;
-  }
-  .faq-features,
-  .spon-features,
-  .footer {
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-  }
-
-  .spon-features {
-    margin-top: 40%;
-    margin-bottom: 20%;
-  }
-  .timeline-features {
-    width: 100%;
-    margin-top: -60%;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    height: 120vh;
-  }
-
-  .container1 {
-    display: block;
-  }
-  .footer {
-    margin-top: 0px !important;
-  }
-  .logo2 {
-    height: 67px;
-    width: auto;
-    /* margin-left: 10%;
-    margin-right: 67px; */
   }
 }
