@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 1000px) {
   .accordion {
-    width: 600px;
+    width: 700px;
   }
 }
 
@@ -46,3 +46,21 @@
     width: 400px;
   }
 }
+
+
+@media screen and (max-width: 450px) {
+  .accordion {
+    width: 250px;
+  }
+  .accordion-title {
+    font-size: 12px;
+  }
+  .accordion-title,
+.accordion-content {
+  padding: 1rem;
+  text-align: left;
+  font-size: 12px;
+}
+}
+
+

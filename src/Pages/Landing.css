@@ -19,6 +19,13 @@
   align-items: center;
 }
 
+.dev-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;;
+}
+
 .container1 {
   width: 100%;
   display: flex;
@@ -50,7 +57,7 @@ a {
   margin-top: -100px !important;
 }
 
-.showcase .container .heading1 {
+.showcase .container .heading1, .showcase .dev-container .heading1 {
   padding-top: 75px;
   margin-bottom: 7.5%;
   font-family: "Space Grotesk", sans-serif;
@@ -238,7 +245,7 @@ a {
     margin-top: -30%;
     height: 800px;
   }
-  .showcase .container .heading1 {
+  .showcase .container .heading1,.showcase .dev-container .heading1 {
     padding: 50px 20px 0px 20px;
     margin-bottom: 20px;
     font-size: 200px;
@@ -357,12 +364,13 @@ a {
     overflow: hidden;
     height: 150vh;
     margin-bottom: -100%;
+    margin-top: -50%;
   }
   .showcase {
     margin-top: -30%;
     height: 800px;
   }
-  .showcase .container .heading1 {
+  .showcase .container .heading1, .showcase .dev-container .heading1 {
     padding: 50px 20px 0px 20px;
     margin-bottom: 20px;
     font-size: 200px;
@@ -372,8 +380,8 @@ a {
     color: white;
   }
   .logo {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin-right: 2%;
   }
   .logo1 {
@@ -390,7 +398,7 @@ a {
     top: 195px;
     opacity: 0.5;
     height: 134px;
-    left: -100px;
+    left: -50px;
     z-index: -5;
   }
   .about-text{
@@ -414,12 +422,15 @@ a {
     font-size: 32px;
     margin-bottom: 0;
   }
+  .about-head1 {
+    font-size: 30px;
+  }
 
   .about-head2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 200px;
+    margin-bottom: 125px;
     font-size: 32px;
   }
 
@@ -465,6 +476,7 @@ a {
   }
   .footer {
     margin-top: 0px !important;
+    min-width: 100% !important;
   }
   .logo2 {
     height: 67px;
@@ -472,4 +484,24 @@ a {
     /* margin-left: 10%;
     margin-right: 67px; */
   }
+  .showcase .container .heading1, .showcase .dev-container .heading1 {
+    font-size: 2rem;
+    
+  }
+  .dev-container{
+    margin-top: -50%;
+  }
+  .faq-features{
+    margin-top: -125%;
+  }
+}
+
+
+@media screen and (max-width: 550px){
+  .logo5 {
+    width: 80%;
+    margin-top: -10%;
+    margin-bottom: -10%;
+  }
+
 }

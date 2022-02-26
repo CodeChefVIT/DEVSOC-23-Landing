@@ -66,7 +66,7 @@ export default function Landing() {
           <Navbar />
         </div>
         <section className="showcase">
-          <div className="container">
+          <div className="dev-container">
             <img className="logo" src={logo}></img>
             <div>
               <h1 className="heading1">

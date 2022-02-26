@@ -103,16 +103,28 @@
 
 @media only screen and (max-width: 850px) {
     .contact-image-row2-container {
-        display: -webkit-inline-box;
+        display: contents;
         justify-content: center;
         align-items: center;
-        gap:50px;
         flex-direction: column;
     }
     .contact-image-row1-container img {
         width: 32px;
     }
+    .contact-content-container  {
+        gap:4rem;
+    }
     .contact-image-row1-container {
         margin-top: -8%;
+        gap:1.5rem;
+    }
+    .section-title {
+        color: #37abbc;
+        font-size: 32px;
+        font-weight: 900;
+        position: relative;
+        opacity: 1;
+        margin-bottom: -10%;
     }
 }
+
