@@ -362,9 +362,9 @@ a {
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    height: 200vh;
-    margin-bottom: -100%;
-    margin-top: -50%;
+    height: 100vh;
+    /* margin-bottom: -100%; */
+    margin-top: 20%;
   }
   .showcase {
     margin-top: -30%;
@@ -461,14 +461,14 @@ a {
   }
   .timeline-features {
     width: 100%;
-    margin-top: -60%;
+    /* margin-top: -150%; */
     background-size: cover;
     background-position: center;
     overflow: hidden;
     display: block;
     align-items: center;
     justify-content: center;
-    height: 200vh;
+    height: 70vh;
   }
 
   .container1 {
@@ -492,8 +492,8 @@ a {
     margin-top: -50%;
   }
   .faq-features{
-    margin-top: -125%;
-    height: 100vh;
+    /* margin-top: -125%; */
+    height: 70vh;
   }
   .side-fixed-btn {
     padding: 4px 5px;
@@ -516,7 +516,7 @@ a {
     height: 100vh;
   }
   .faq-features{
-    height: 150vh;
+    height: 70vh;
   }
   .spon-features{
     margin-top: 0;
@@ -535,3 +535,12 @@ a {
     left: -100px;
   }
 }
+
+@media screen and (max-width: 450px){
+  .logo5{
+    margin-top: -25%;
+    margin-bottom: -20%;
+  }
+  
+}
+
