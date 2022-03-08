@@ -10,8 +10,12 @@ import FAQimg from "../Assets/FAQ.svg";
 import rocket from "../Assets/rocket.svg";
 import cards from "../Assets/cards.svg";
 import title from "../Assets/title-cards.svg";
+import titlecards from "../Assets/Title.png";
 import discord from "../Assets/discord.png";
 import Footer from "../Components/Footer/Footer";
+import platinum from "../Assets/Platinum.png";
+import uniswap from "../Assets/Uniswap.png";
+import Celo from "../Assets/Celo.png";
 
 export default function Landing() {
   const accordionData = [
@@ -56,10 +60,10 @@ export default function Landing() {
     <>
       {/* <Navbar /> */}
       <a href="http://discord.codechefvit.com/" target="_blank">
-            <div class="side-fixed-btn hover-change">
-                <img src={discord} alt="" />
-            </div>
-        </a>
+        <div class="side-fixed-btn hover-change">
+          <img src={discord} alt="" />
+        </div>
+      </a>
 
       <section className="hero">
         <div style={{ zIndex: 15 }}>
@@ -135,9 +139,8 @@ export default function Landing() {
               FAQ
               <img className="logo3" src={FAQimg}></img>
             </h1>
-            
 
-            <div className="accordion" style={{marginTop:"-25%"}}>
+            <div className="accordion" style={{ marginTop: "-25%" }}>
               {accordionData.map(({ title, content }) => (
                 <FAQ title={title} content={content} />
               ))}
@@ -151,9 +154,13 @@ export default function Landing() {
           <div>
             <h1 className="about-head">Sponsors</h1>
             <h1 className="about-head1">Title</h1>
-            <img className="logo5" src={title}></img>
-            <h1 className="about-head1">Title</h1>
-            <img className="logo5" src={cards}></img>
+            <img className="logo5" src={titlecards}></img>
+            <h1 className="about-head1">Platinum</h1>
+            <img className="platinumlogo" src={uniswap}></img>
+            <img className="platinumlogo" src={Celo}></img>
+            {/* <img className="platinumlogo" src={Celo}></img> */}
+            {/* <img className="platinumlogo" src={uniswap}></img>
+            <img className="platinumlogo" src={uniswap}></img> */}
             <h1 className="about-head1">Title</h1>
             <img className="logo5" src={cards}></img>
             <h1 className="about-head1">Title</h1>
@@ -161,10 +168,9 @@ export default function Landing() {
           </div>
         </div>
         <img className="logo6" src={rocket}></img>
-        
       </section>
       <section className="footer">
-      <Footer />
+        <Footer />
       </section>
     </>
   );
