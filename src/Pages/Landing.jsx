@@ -19,6 +19,7 @@ import Celo from "../Assets/Celo.png";
 import Deepnote from "../Assets/Deepnote.png";
 import JoshTalks from "../Assets/JoshTalks.png";
 import Uizard from "../Assets/Uizard.png";
+import StickerMule from "../Assets/Stickermule.png";
 import Navbar2 from "../Components/Navbar2/Navbar2";
 
 export default function Landing() {
@@ -154,20 +155,38 @@ export default function Landing() {
         </div>
       </section>
 
-      <section className="spon-features">
+      <section className="spon-features" id= "sponsors">
         <div>
           <div>
-            <h1 className="about-head">Sponsors</h1>
+            <h1 className="about-hea">Sponsors</h1>
             <h1 className="about-head1">Title</h1>
-            <img className="logo5" src={titlecards}></img>
+            <a href="https://www.alchemy.com/">
+            <img className="platinumlogo" src={titlecards}>
+              
+              </img>
+              </a>
             <h1 className="about-head1">Platinum</h1>
+            <a href="https://uniswap.org/">
             <img className="platinumlogo" src={uniswap}></img>
+            </a>
+            <a href="https://celo.org/">
             <img className="platinumlogo" src={Celo}></img>
-            <h1 className="about-head1">Gold</h1>
+            </a>
+            
+            <h1 className="about-head1">Silver</h1>
+            <a href="https://deepnote.com/">
             <img className="platinumlogo" src={Deepnote}></img>
+            </a>
+            <a href="https://uizard.io/">
             <img className="platinumlogo" src={Uizard}></img>
+            </a>
+            <a href="https://www.joshtalks.com/">
             <img className="platinumlogo" src={JoshTalks}></img>
-            <h1 className="about-head1">Title</h1>
+            </a>
+            <h1 className="about-head1">In Kind</h1>
+            <a href="https://mule.to/p2nx">
+            <img className="platinumlogo" src={StickerMule}></img>
+            </a>
 
           </div>
         </div>

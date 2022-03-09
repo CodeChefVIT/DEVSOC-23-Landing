@@ -34,16 +34,16 @@
 }
 .contact-image-row1-container,
 .contact-image-row2-container {
-    gap: 8rem;
+    gap: 3rem;
 }
 
 .contact-image-row1-container{
     margin-bottom: -5%;
-    margin-top: 5%;
+    /* margin-top: 5%; */
 }
 
 .contact-image-row1-container img {
-    width: 56px;
+    width: 40px;
 }
 
 .contact-image-row1-container img:hover {
