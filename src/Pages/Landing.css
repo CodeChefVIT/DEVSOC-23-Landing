@@ -54,7 +54,7 @@ a {
   justify-content: center;
   align-items: center;
   overflow-x: hidden !important;
-  margin-top: -100px !important;
+  margin-top: -60px !important;
 }
 
 .showcase .container .heading1, .showcase .dev-container .heading1 {
@@ -246,12 +246,21 @@ a {
     background-position: center;
     overflow: hidden;
   }
-  .showcase {
-    margin-top: -30%;
-    height: 800px;
-  }
+  /* .showcase {
+    min-height: 400px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden !important;
+    margin-top: -60px !important;
+  } */
   .showcase .container .heading1,.showcase .dev-container .heading1 {
-    padding: 50px 20px 0px 20px;
+    /* padding: 50px 20px 0px 0px;
+    position:fixed; */
+    top:10;
+    left:10;
     margin-bottom: 20px;
     font-size: 200px;
     font-family: "Space Grotesk", sans-serif;
