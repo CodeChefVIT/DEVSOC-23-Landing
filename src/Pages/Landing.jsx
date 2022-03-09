@@ -2,7 +2,7 @@ import React from "react";
 import "./Landing.css";
 import logo from "../Assets/logo.png";
 import astronaut from "../Assets/Astronaut.png";
-import Navbar from "../Components/Navbar/Navbar";
+// import Navbar from "../Components/Navbar/Navbar";
 import timeline from "../Assets/timeline.svg";
 import timeline1 from "../Assets/Timeline.png";
 import FAQ from "../Components/FAQ/faq";
@@ -16,6 +16,10 @@ import Footer from "../Components/Footer/Footer";
 import platinum from "../Assets/Platinum.png";
 import uniswap from "../Assets/Uniswap.png";
 import Celo from "../Assets/Celo.png";
+import Deepnote from "../Assets/Deepnote.png";
+import JoshTalks from "../Assets/JoshTalks.png";
+import Uizard from "../Assets/Uizard.png";
+import Navbar2 from "../Components/Navbar2/Navbar2";
 
 export default function Landing() {
   const accordionData = [
@@ -67,7 +71,8 @@ export default function Landing() {
 
       <section className="hero">
         <div style={{ zIndex: 15 }}>
-          <Navbar />
+          {/* <Navbar /> */}
+          <Navbar2 />
         </div>
         <section className="showcase">
           <div className="dev-container">
@@ -158,13 +163,12 @@ export default function Landing() {
             <h1 className="about-head1">Platinum</h1>
             <img className="platinumlogo" src={uniswap}></img>
             <img className="platinumlogo" src={Celo}></img>
-            {/* <img className="platinumlogo" src={Celo}></img> */}
-            {/* <img className="platinumlogo" src={uniswap}></img>
-            <img className="platinumlogo" src={uniswap}></img> */}
+            <h1 className="about-head1">Gold</h1>
+            <img className="platinumlogo" src={Deepnote}></img>
+            <img className="platinumlogo" src={Uizard}></img>
+            <img className="platinumlogo" src={JoshTalks}></img>
             <h1 className="about-head1">Title</h1>
-            <img className="logo5" src={cards}></img>
-            <h1 className="about-head1">Title</h1>
-            <img className="logo5" src={cards}></img>
+
           </div>
         </div>
         <img className="logo6" src={rocket}></img>
