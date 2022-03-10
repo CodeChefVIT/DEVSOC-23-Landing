@@ -4,16 +4,12 @@ import logo from "../Assets/logo.png";
 import astronaut from "../Assets/Astronaut.png";
 // import Navbar from "../Components/Navbar/Navbar";
 import timeline from "../Assets/timeline.svg";
-import timeline1 from "../Assets/Timeline.png";
 import FAQ from "../Components/FAQ/faq";
 import FAQimg from "../Assets/FAQ.svg";
 import rocket from "../Assets/rocket.svg";
-import cards from "../Assets/cards.svg";
-import title from "../Assets/title-cards.svg";
 import titlecards from "../Assets/Title.png";
 import discord from "../Assets/discord.png";
 import Footer from "../Components/Footer/Footer";
-import platinum from "../Assets/Platinum.png";
 import uniswap from "../Assets/Uniswap.png";
 import Celo from "../Assets/Celo.png";
 import Deepnote from "../Assets/Deepnote.png";
@@ -115,7 +111,7 @@ export default function Landing() {
         </div>
       </section>
 
-      <section className="timeline-features" id="dates">
+      <section className="timeline-features" id="timeline">
         <img className="timeline" src={timeline}></img>
         <div
           className="container"
@@ -128,8 +124,8 @@ export default function Landing() {
           <div>
             <h1 className="about-head">Timeline</h1>
 
-            <img className="logo2" src={timeline1}></img>
-            {/* <Timeline /> */}
+            {/* <img className="logo2" src={timeline1}></img> */}
+            <Timeline />
           </div>
         </div>
       </section>
@@ -157,44 +153,44 @@ export default function Landing() {
         </div>
       </section>
 
-      <section className="spon-features" id= "sponsors">
+      <section className="spon-features" id="sponsors">
         <div>
           <div>
             <h1 className="about-hea">Sponsors</h1>
             <h1 className="about-head1">Title</h1>
             <a href="https://www.alchemy.com/">
-            <img className="platinumlogo" src={titlecards}>
-              
+              <img className="platinumlogo" src={titlecards}>
+
               </img>
-              </a>
+            </a>
             <h1 className="about-head1">Platinum</h1>
             <a href="https://uniswap.org/">
-            <img className="platinumlogo" src={uniswap}></img>
+              <img className="platinumlogo" src={uniswap}></img>
             </a>
             <a href="https://celo.org/">
-            <img className="platinumlogo" src={Celo}></img>
+              <img className="platinumlogo" src={Celo}></img>
             </a>
-            
+
             <h1 className="about-head1">Silver</h1>
             <a href="https://deepnote.com/">
-            <img className="platinumlogo" src={Deepnote}></img>
+              <img className="platinumlogo" src={Deepnote}></img>
             </a>
             <a href="https://uizard.io/">
-            <img className="platinumlogo" src={Uizard}></img>
+              <img className="platinumlogo" src={Uizard}></img>
             </a>
             <a href="https://www.joshtalks.com/">
-            <img className="platinumlogo" src={JoshTalks}></img>
+              <img className="platinumlogo" src={JoshTalks}></img>
             </a>
             <h1 className="about-head1">In Kind</h1>
             <a href="https://mule.to/p2nx">
-            <img className="platinumlogo" src={StickerMule}></img>
+              <img className="platinumlogo" src={StickerMule}></img>
             </a>
 
           </div>
         </div>
         <img className="logo6" src={rocket}></img>
       </section>
-      <section className="footer">
+      <section className="footer" id="contact">
         <Footer />
       </section>
     </>

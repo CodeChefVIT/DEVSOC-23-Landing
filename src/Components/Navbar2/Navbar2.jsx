@@ -22,48 +22,32 @@ export default function NavBar() {
                     </NavLink>
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li className="nav-item">
-                            <NavLink
-                                exact
-                                to="/#about"
-                                activeClassName="active"
-                                className="nav-links"
-                                onClick={click ? handleClick : null}
-                            >
+                            <a href="#about" className="nav-links"
+                                // onClick={click ? handleClick : null}
+                                activeClassName="active">
                                 About
-                            </NavLink>
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <NavLink
-                                exact
-                                to="/#sponsors"
-                                activeClassName="active"
-                                className="nav-links"
-                                onClick={click ? handleClick : null}
-                            >
+                            <a href="#timeline" className="nav-links"
+                                // onClick={click ? handleClick : null}
+                                activeClassName="active">
+                                Timeline
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="#sponsors" className="nav-links"
+                                // onClick={click ? handleClick : null}
+                                activeClassName="active">
                                 Sponsors
-                            </NavLink>
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <NavLink
-                                exact
-                                to="/#dates"
-                                activeClassName="active"
-                                className="nav-links"
-                                onClick={click ? handleClick : null}
-                            >
-                                Dates
-                            </NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink
-                                exact
-                                to="/#faq"
-                                activeClassName="active"
-                                className="nav-links"
-                                onClick={click ? handleClick : null}
-                            >
-                                Contact Us
-                            </NavLink>
+                            <a href="#contact" className="nav-links"
+                                // onClick={click ? handleClick : null}
+                                activeClassName="active">
+                                Contact
+                            </a>
                         </li>
                     </ul>
                     <div className="nav-icon" onClick={handleClick}>
