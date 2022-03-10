@@ -24,7 +24,7 @@ export default function NavBar() {
                         <li className="nav-item">
                             <NavLink
                                 exact
-                                to="/"
+                                to="/#about"
                                 activeClassName="active"
                                 className="nav-links"
                                 onClick={click ? handleClick : null}
@@ -46,7 +46,7 @@ export default function NavBar() {
                         <li className="nav-item">
                             <NavLink
                                 exact
-                                to="/blog"
+                                to="/#dates"
                                 activeClassName="active"
                                 className="nav-links"
                                 onClick={click ? handleClick : null}
@@ -57,7 +57,7 @@ export default function NavBar() {
                         <li className="nav-item">
                             <NavLink
                                 exact
-                                to="/contact"
+                                to="/#faq"
                                 activeClassName="active"
                                 className="nav-links"
                                 onClick={click ? handleClick : null}

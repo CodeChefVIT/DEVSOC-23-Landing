@@ -21,6 +21,7 @@ import JoshTalks from "../Assets/JoshTalks.png";
 import Uizard from "../Assets/Uizard.png";
 import StickerMule from "../Assets/Stickermule.png";
 import Navbar2 from "../Components/Navbar2/Navbar2";
+import Timeline from "../Components/Timeline/Timeline";
 
 export default function Landing() {
   const accordionData = [
@@ -90,7 +91,7 @@ export default function Landing() {
         </section>
       </section>
 
-      <section className="features">
+      <section className="features" id="about">
         <div
           className="container1"
           style={{
@@ -114,7 +115,7 @@ export default function Landing() {
         </div>
       </section>
 
-      <section className="timeline-features">
+      <section className="timeline-features" id="dates">
         <img className="timeline" src={timeline}></img>
         <div
           className="container"
@@ -128,10 +129,11 @@ export default function Landing() {
             <h1 className="about-head">Timeline</h1>
 
             <img className="logo2" src={timeline1}></img>
+            {/* <Timeline /> */}
           </div>
         </div>
       </section>
-      <section className="faq-features">
+      <section className="faq-features" id="faq">
         <div
           className="container"
           style={{

@@ -113,7 +113,7 @@ a {
   width: 500px;
   z-index: -5;
   position: relative;
-  top: -1200px;
+  top: -1150px;
   right: -500px;
   /* right: 100px; */
 }
@@ -446,7 +446,7 @@ a {
   }
 
   .about-head1 {
-    margin-top: 20%;
+    margin-top: 5%;
     font-size: 30px;
   }
 
@@ -504,7 +504,7 @@ a {
   }
   .faq-features{
     /* margin-top: -125%; */
-    height: 70vh;
+    /* height: 70vh; */
   }
   .side-fixed-btn {
     /* padding: 4px 5px; */
@@ -522,6 +522,7 @@ a {
 
 
 @media screen and (max-width: 550px){
+  
   .logo5 {
     width: 50%;
     margin-top: -10%;
@@ -534,7 +535,7 @@ a {
     height: 100vh;
   }
   .faq-features{
-    height: 70vh;
+    /* height: 70vh; */
   }
   .spon-features{
     margin-top: 0;
@@ -544,6 +545,13 @@ a {
 
 
 @media screen and (max-width: 350px){
+  .hero {
+    width: 100%;
+    background: url("../Assets/hero-phone.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
   .dev-container{
     margin-top: -150%;
   }
