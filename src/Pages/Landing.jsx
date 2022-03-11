@@ -1,23 +1,20 @@
 import React from "react";
-import "./Landing.css";
-import logo from "../Assets/logo.png";
 import astronaut from "../Assets/Astronaut.png";
-// import Navbar from "../Components/Navbar/Navbar";
-import timeline from "../Assets/timeline.svg";
-import FAQ from "../Components/FAQ/faq";
-import FAQimg from "../Assets/FAQ.svg";
-import rocket from "../Assets/rocket.svg";
-import titlecards from "../Assets/Title.png";
-import discord from "../Assets/discord.png";
-import Footer from "../Components/Footer/Footer";
-import uniswap from "../Assets/Uniswap.png";
 import Celo from "../Assets/Celo.png";
 import Deepnote from "../Assets/Deepnote.png";
+import discord from "../Assets/discord.png";
+import FAQimg from "../Assets/FAQ.svg";
 import JoshTalks from "../Assets/JoshTalks.png";
-import Uizard from "../Assets/Uizard.png";
+import logo from "../Assets/logo.png";
+import rocket from "../Assets/rocket.svg";
 import StickerMule from "../Assets/Stickermule.png";
+import titlecards from "../Assets/Title.png";
+import Uizard from "../Assets/Uizard.png";
+import uniswap from "../Assets/Uniswap.png";
+import FAQ from "../Components/FAQ/faq";
+import Footer from "../Components/Footer/Footer";
 import Navbar2 from "../Components/Navbar2/Navbar2";
-import Timeline from "../Components/Timeline/Timeline";
+import "./Landing.css";
 
 export default function Landing() {
   const accordionData = [
