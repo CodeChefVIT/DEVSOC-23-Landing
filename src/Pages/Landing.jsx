@@ -22,40 +22,24 @@ import Timeline from "../Components/Timeline/Timeline";
 export default function Landing() {
   const accordionData = [
     {
-      title: "Section 1",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
-          laborum cupiditate possimus labore, hic temporibus velit dicta earum
-          suscipit commodi eum enim atque at? Et perspiciatis dolore iure
-          voluptatem.`,
+      title: "What's the cost of the hackathon?",
+      content: `DEVSOC 22 is completely free thanks to our sponsors! We'll also provide you with enough swags, drinks, meals throughout the hackathon.`,
     },
     {
-      title: "Section 2",
-      content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
-          reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
-          quaerat iure quos dolorum accusantium ducimus in illum vero commodi
-          pariatur? Impedit autem esse nostrum quasi, fugiat a aut error cumque
-          quidem maiores doloremque est numquam praesentium eos voluptatem amet!
-          Repudiandae, mollitia id reprehenderit a ab odit!`,
+      title: "What's the application process like?",
+      content: `You're required to register with us on Devfolio where you'll be asked for basic details and your resume. We’ll get to know about your abilities from your past projects, GitHub profile, participation/awards in other hackathons. We'll shortlist teams for the offline hackathon round through this.`,
     },
     {
-      title: "Section 3",
-      content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
-          quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
-          dolor ut sequi minus iste? Quas?`,
+      title: "I'm a fresher and I don't have a good resume. Will I be selected?",
+      content: `We will be evaluating everyone based on different metrics. We'll take into account if you're a fresher and where you stand amongst your peers. If you don't have anything technical to add to your resume, feel free to add any public speaking events or other competitions you've been to.`,
     },
     {
-      title: "Section 4",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
-            laborum cupiditate possimus labore, hic temporibus velit dicta earum
-            suscipit commodi eum enim atque at? Et perspiciatis dolore iure
-            voluptatem.`,
+      title: "Can I participate alone?",
+      content: `No! This hackathon is strictly a team competition where you can have 2-5 members in your team. Most teams aim to have a mix of people with both design and developer skills`,
     },
     {
-      title: "Section 5",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
-            laborum cupiditate possimus labore, hic temporibus velit dicta earum
-            suscipit commodi eum enim atque at? Et perspiciatis dolore iure
-            voluptatem.`,
+      title: "Do I need to have specific qualifications to be a part of the hack?",
+      content: `If you love to code, you're more than welcome to participate in the hackathon.`,
     },
   ];
   return (
@@ -111,7 +95,7 @@ export default function Landing() {
         </div>
       </section>
 
-      <section className="timeline-features" id="timeline">
+      {/* <section className="timeline-features" id="timeline">
         <img className="timeline" src={timeline}></img>
         <div
           className="container"
@@ -124,11 +108,11 @@ export default function Landing() {
           <div>
             <h1 className="about-head">Timeline</h1>
 
-            {/* <img className="logo2" src={timeline1}></img> */}
+            <img className="logo2" src={timeline1}></img>
             <Timeline />
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="faq-features" id="faq">
         <div
           className="container"
