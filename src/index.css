@@ -12,7 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #030109;
-  background: url("../src/Assets/Landing.png") no-repeat;
+  background: url("../src/Assets/Landing-bg.png") no-repeat;
   background-size: cover;
 }
 

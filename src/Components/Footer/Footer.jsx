@@ -4,6 +4,8 @@ import facebook from "../../Assets/Facebook.svg";
 import instagram from "../../Assets/Instagram.svg";
 import linkedin from "../../Assets/LinkedIn.svg";
 import twitter from "../../Assets/Twitter.svg";
+import github from "../../Assets/Subtract.svg";
+import Medium from "../../Assets/Medium.svg";
 import Helmet from "../../Assets/helmet.svg";
 import "./Footer.css";
 
@@ -28,6 +30,13 @@ export default function Footer() {
                 </a>
                 <a
                   class="hover-change"
+                  href="https://www.github.com/codechefvit"
+                  target="_blank"
+                >
+                  <img src={github} alt="" />
+                </a>
+                <a
+                  class="hover-change"
                   href="https://www.linkedin.com/company/codechef-vit-chapter/mycompany/"
                   target="_blank"
                 >
@@ -39,6 +48,13 @@ export default function Footer() {
                   target="_blank"
                 >
                   <img src={instagram} alt="" />
+                </a>
+                <a
+                  class="hover-change"
+                  href="https://www.medium.com/codechef-vit"
+                  target="_blank"
+                >
+                  <img src={Medium} alt="" />
                 </a>
                 <a
                   class="hover-change"

@@ -34,8 +34,33 @@
   border-radius: 8px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .accordion {
-    width: 500px;
+    width: 700px;
   }
 }
+
+
+@media screen and (max-width: 700px) {
+  .accordion {
+    width: 400px;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .accordion {
+    width: 250px;
+  }
+  .accordion-title {
+    font-size: 12px;
+  }
+  .accordion-title,
+.accordion-content {
+  padding: 1rem;
+  text-align: left;
+  font-size: 12px;
+}
+}
+
+
