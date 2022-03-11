@@ -580,3 +580,22 @@ a {
   
 }
 
+@media screen and (max-height: 450px){
+  .showcase{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* margin-top: -60px!important; */
+    min-height: 270px;
+    overflow-x: hidden!important;
+    text-align: center;
+    width: 100%;
+    margin-top: -15% !important;
+  }
+  .features {
+    height: 200vh;
+    margin-top: 20%;
+}
+}
+
+
