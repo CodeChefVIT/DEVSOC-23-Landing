@@ -60,7 +60,7 @@ export default function Landing() {
               <h1 className="heading1">
                 DEVSOC <span style={{ color: "#37ABBC" }}>‘22</span>
               </h1>
-              <a className="button" href="http://cet-portal.codechefvit.com">
+              <a className="button">
                 <a style={{ color: "white" }}>Register Now</a>
               </a>
             </div>
