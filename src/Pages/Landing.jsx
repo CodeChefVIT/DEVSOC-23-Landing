@@ -1,4 +1,5 @@
 import React from "react";
+import AlchemyLogo from "../Assets/alchemy-white.png";
 import astronaut from "../Assets/Astronaut.png";
 import Celo from "../Assets/Celo.png";
 import Deepnote from "../Assets/Deepnote.png";
@@ -60,9 +61,14 @@ export default function Landing() {
               <h1 className="heading1">
                 DEVSOC <span style={{ color: "#37ABBC" }}>‘22</span>
               </h1>
-              <a className="button">
+            <div className="alchemy">
+              <h3 style={{ color: "white" }}> Powered by <img className="alchemy-logo" src={AlchemyLogo} style={{width:"5em"}}></img></h3>
+            </div>
+            <div>
+            <a className="button">
                 <a style={{ color: "white" }}>Register Now</a>
               </a>
+            </div>
             </div>
           </div>
         </section>
