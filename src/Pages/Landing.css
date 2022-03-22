@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
 .hero {
     background-image: url("../Assets/hero.png");
     background-size: cover;
@@ -75,10 +76,22 @@ a {
 }
 
 .alchemy {
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: 100;
+    display: inline-flexbox;
+    font-family: "Mulish", "Roboto", sans-serif;
+    font-weight: normal;
     margin-top: -50px;
     margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: text-bottom;
+}
+
+.alchemy-logo {
+    align-items: center;
+    width: 6rem;
+    margin-top: 5px;
+    margin-left: 0.2rem;
+    vertical-align: text-bottom;
 }
 
 .logo1 {
@@ -187,7 +200,7 @@ a {
 }
 
 .about-text {
-    font-family: "Roboto", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -493,10 +506,16 @@ a {
     }
     .showcase .container .heading1,
     .showcase .dev-container .heading1 {
-        font-size: 2rem;
+        font-size: 2em;
     }
     .dev-container {
         margin-top: -50%;
+    }
+    .alchemy h4 {
+        font-size: 0.9rem;
+    }
+    .alchemy-logo {
+        width: 5em;
     }
     .faq-features {
         /* margin-top: -125%; */

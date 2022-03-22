@@ -43,7 +43,7 @@ export default function Landing() {
   return (
     <>
       {/* <Navbar /> */}
-      <a href="http://discord.codechefvit.com/" target="_blank">
+      <a href="http://discord.codechefvit.com/" target="_blank" rel="noreferrer">
         <div class="side-fixed-btn hover-change">
           <img src={discord} alt="" />
         </div>
@@ -56,17 +56,17 @@ export default function Landing() {
         </div>
         <section className="showcase">
           <div className="dev-container">
-            <img className="logo" src={logo}></img>
+            <img className="logo" src={logo} alt=""></img>
             <div>
               <h1 className="heading1">
                 DEVSOC <span style={{ color: "#37ABBC" }}>‘22</span>
               </h1>
             <div className="alchemy">
-              <h3 style={{ color: "white" }}> Powered by <img className="alchemy-logo" src={AlchemyLogo} style={{width:"5em"}}></img></h3>
+              <h4 style={{ color: "white" }}> Powered by <span><img className="alchemy-logo" src={AlchemyLogo} alt="Alchemy logo"/></span></h4>
             </div>
             <div>
-            <a className="button">
-                <a style={{ color: "white" }}>Register Now</a>
+            <a className="button" href="/#">
+                <a style={{ color: "white" }} href="/#">Register Now</a>
               </a>
             </div>
             </div>
@@ -94,7 +94,7 @@ export default function Landing() {
               consisting of amazing swags, prizes, food and drinks!
             </p>
           </div>
-          <img className="logo1" src={astronaut}></img>
+          <img className="logo1" src={astronaut} alt=""></img>
         </div>
       </section>
 
@@ -128,7 +128,7 @@ export default function Landing() {
           <div>
             <h1 className="about-head2" style={{ display: "flex" }}>
               FAQ
-              <img className="logo3" src={FAQimg}></img>
+              <img className="logo3" src={FAQimg} alt=""></img>
             </h1>
 
             <div className="accordion" style={{ marginTop: "-25%" }}>
@@ -146,36 +146,36 @@ export default function Landing() {
             <h1 className="about-hea">Sponsors</h1>
             <h1 className="about-head1">Title</h1>
             <a href="https://www.alchemy.com/">
-              <img className="platinumlogo" src={titlecards}>
+              <img className="platinumlogo" src={titlecards} alt="">
 
               </img>
             </a>
             <h1 className="about-head1">Platinum</h1>
             <a href="https://uniswap.org/">
-              <img className="platinumlogo" src={uniswap}></img>
+              <img className="platinumlogo" src={uniswap} alt=""></img>
             </a>
             <a href="https://celo.org/">
-              <img className="platinumlogo" src={Celo}></img>
+              <img className="platinumlogo" src={Celo} alt=""></img>
             </a>
 
             <h1 className="about-head1">Silver</h1>
             <a href="https://deepnote.com/">
-              <img className="platinumlogo" src={Deepnote}></img>
+              <img className="platinumlogo" src={Deepnote} alt=""></img>
             </a>
             <a href="https://uizard.io/">
-              <img className="platinumlogo" src={Uizard}></img>
+              <img className="platinumlogo" src={Uizard} alt=""></img>
             </a>
             <a href="https://www.joshtalks.com/">
-              <img className="platinumlogo" src={JoshTalks}></img>
+              <img className="platinumlogo" src={JoshTalks} alt=""></img>
             </a>
             <h1 className="about-head1">In Kind</h1>
             <a href="https://mule.to/p2nx">
-              <img className="platinumlogo" src={StickerMule}></img>
+              <img className="platinumlogo" src={StickerMule} alt=""></img>
             </a>
 
           </div>
         </div>
-        <img className="logo6" src={rocket}></img>
+        <img className="logo6" src={rocket} alt=""></img>
       </section>
       <section className="footer" id="contact">
         <Footer />
