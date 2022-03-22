@@ -62,7 +62,7 @@ export default function Landing() {
                 DEVSOC <span style={{ color: "#37ABBC" }}>‘22</span>
               </h1>
             <div className="alchemy">
-              <h4 style={{ color: "white" }}> Powered by <span><img className="alchemy-logo" src={AlchemyLogo} alt="Alchemy logo"/></span></h4>
+              <h4 style={{ color: "white" }}> Powered by <span><a href="https://www.alchemy.com/" target="_blank" rel="noreferrer"><img className="alchemy-logo" src={AlchemyLogo} alt="Alchemy logo"/></a></span></h4>
             </div>
             <div>
             <a className="button" href="/#">
@@ -145,31 +145,31 @@ export default function Landing() {
           <div>
             <h1 className="about-hea">Sponsors</h1>
             <h1 className="about-head1">Title</h1>
-            <a href="https://www.alchemy.com/">
+            <a href="https://www.alchemy.com/" target="_blank" rel="noreferrer">
               <img className="platinumlogo" src={titlecards} alt="">
 
               </img>
             </a>
             <h1 className="about-head1">Platinum</h1>
-            <a href="https://uniswap.org/">
+            <a href="https://uniswap.org/" target="_blank" rel="noreferrer">
               <img className="platinumlogo" src={uniswap} alt=""></img>
             </a>
-            <a href="https://celo.org/">
+            <a href="https://celo.org/" target="_blank" rel="noreferrer">
               <img className="platinumlogo" src={Celo} alt=""></img>
             </a>
 
             <h1 className="about-head1">Silver</h1>
-            <a href="https://deepnote.com/">
+            <a href="https://deepnote.com/" target="_blank" rel="noreferrer">
               <img className="platinumlogo" src={Deepnote} alt=""></img>
             </a>
-            <a href="https://uizard.io/">
+            <a href="https://uizard.io/" target="_blank" rel="noreferrer">
               <img className="platinumlogo" src={Uizard} alt=""></img>
             </a>
-            <a href="https://www.joshtalks.com/">
+            <a href="https://www.joshtalks.com/" target="_blank" rel="noreferrer">
               <img className="platinumlogo" src={JoshTalks} alt=""></img>
             </a>
             <h1 className="about-head1">In Kind</h1>
-            <a href="https://mule.to/p2nx">
+            <a href="https://mule.to/p2nx" target="_blank" rel="noreferrer">
               <img className="platinumlogo" src={StickerMule} alt=""></img>
             </a>
 
