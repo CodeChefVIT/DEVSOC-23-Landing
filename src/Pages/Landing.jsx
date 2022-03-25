@@ -62,11 +62,11 @@ export default function Landing() {
                 DEVSOC <span style={{ color: "#37ABBC" }}>‘22</span>
               </h1>
             <div className="alchemy">
-              <h4 style={{ color: "white" }}> Powered by <span><a href="https://www.alchemy.com/" target="_blank" rel="noreferrer"><img className="alchemy-logo" src={AlchemyLogo} alt="Alchemy logo"/></a></span></h4>
+              <h4 style={{ color: "white" }}> Powered by <span><a href="https://alchemy.com/?a=devsoc22" target="_blank" rel="noreferrer"><img className="alchemy-logo" src={AlchemyLogo} alt="Alchemy logo"/></a></span></h4>
             </div>
             <div>
-            <a className="button" href="/#">
-                <a style={{ color: "white" }} href="/#">Register Now</a>
+            <a className="button" href="https://hackwith.codechefvit.com/">
+                <a style={{ color: "white" }} href="https://hackwith.codechefvit.com/">Register Now</a>
               </a>
             </div>
             </div>
@@ -145,7 +145,7 @@ export default function Landing() {
           <div>
             <h1 className="about-hea">Sponsors</h1>
             <h1 className="about-head1">Title</h1>
-            <a href="https://www.alchemy.com/" target="_blank" rel="noreferrer">
+            <a href="https://alchemy.com/?a=devsoc22" target="_blank" rel="noreferrer">
               <img className="platinumlogo" src={titlecards} alt="">
 
               </img>
