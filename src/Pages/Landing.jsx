@@ -43,11 +43,11 @@ export default function Landing() {
   return (
     <>
       {/* <Navbar /> */}
-      <a href="http://discord.codechefvit.com/" target="_blank" rel="noreferrer">
+      {/* <a href="http://discord.codechefvit.com/" target="_blank" rel="noreferrer">
         <div class="side-fixed-btn hover-change">
           <img src={discord} alt="" />
         </div>
-      </a>
+      </a> */}
 
       <section className="hero">
         <div style={{ zIndex: 15 }}>
@@ -56,25 +56,25 @@ export default function Landing() {
         </div>
         <section className="showcase">
           <div className="dev-container">
-            <img className="logo" src={logo} alt=""></img>
+            {/* <img className="logo" src={logo} alt=""></img> */}
             <div>
               <h1 className="heading1">
-                DEVSOC <span style={{ color: "#37ABBC" }}>‘22</span>
+                DEVSOC <span style={{ color: "#37ABBC" }}>‘22</span> is postponed :(
               </h1>
-            <div className="alchemy">
-              <h4 style={{ color: "white" }}> Powered by <span><a href="https://alchemy.com/?a=devsoc22" target="_blank" rel="noreferrer"><img className="alchemy-logo" src={AlchemyLogo} alt="Alchemy logo"/></a></span></h4>
-            </div>
-            <div>
-            <a className="button" href="https://hackwith.codechefvit.com/">
-                <a style={{ color: "white" }} href="https://hackwith.codechefvit.com/">Register Now</a>
-              </a>
-            </div>
+              {/* <div className="alchemy">
+                <h4 style={{ color: "white" }}> Powered by <span><a href="https://alchemy.com/?a=devsoc22" target="_blank" rel="noreferrer"><img className="alchemy-logo" src={AlchemyLogo} alt="Alchemy logo" /></a></span></h4>
+              </div>
+              <div>
+                <a className="button" href="https://hackwith.codechefvit.com/">
+                  <a style={{ color: "white" }} href="https://hackwith.codechefvit.com/">Register Now</a>
+                </a>
+              </div> */}
             </div>
           </div>
         </section>
       </section>
 
-      <section className="features" id="about">
+      {/* <section className="features" id="about">
         <div
           className="container1"
           style={{
@@ -96,7 +96,7 @@ export default function Landing() {
           </div>
           <img className="logo1" src={astronaut} alt=""></img>
         </div>
-      </section>
+      </section> */}
 
       {/* <section className="timeline-features" id="timeline">
         <img className="timeline" src={timeline}></img>
@@ -116,7 +116,7 @@ export default function Landing() {
           </div>
         </div>
       </section> */}
-      <section className="faq-features" id="faq">
+      {/* <section className="faq-features" id="faq">
         <div
           className="container"
           style={{
@@ -138,9 +138,9 @@ export default function Landing() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="spon-features" id="sponsors">
+      {/* <section className="spon-features" id="sponsors">
         <div>
           <div>
             <h1 className="about-hea">Sponsors</h1>
@@ -176,10 +176,10 @@ export default function Landing() {
           </div>
         </div>
         <img className="logo6" src={rocket} alt=""></img>
-      </section>
-      <section className="footer" id="contact">
+      </section> */}
+      {/* <section className="footer" id="contact">
         <Footer />
-      </section>
+      </section> */}
     </>
   );
 }
