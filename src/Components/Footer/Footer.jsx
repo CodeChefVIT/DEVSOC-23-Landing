@@ -67,8 +67,12 @@ export default function Footer() {
               <div class="contact-image-row2-container">
                 <div class="contact-desc-info">
                   <h1>Contact Us</h1>
-                  <span>Call Jugal: +91 98790 15671</span>
-                  <span>Call Rakshit: +91 8920 533487</span>
+
+                  {/* <a href="tel:+919880093000" style="color:white">Call Thaman: +91 98800 93000</a> */}
+                  
+
+                  <span>Call Thaman: +91 98800 93000</span>
+                  <span>Call Prathavi: +91 99746 08203</span>
                   <span>Email: codechefvit@gmail.com</span>
                 </div>
                 <div class="contact-desc-address">

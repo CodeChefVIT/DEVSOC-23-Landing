@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4a2b64bb.css",
+    "main.js": "/static/js/main.7ac4bf9a.js",
+    "static/js/787.c02d9614.chunk.js": "/static/js/787.c02d9614.chunk.js",
+    "static/media/Title.png": "/static/media/Title.1b1bc8e18132f2fc19d5.png",
+    "static/media/hero-phone.png": "/static/media/hero-phone.38789adfd83e35b1291f.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/Astronaut.png": "/static/media/Astronaut.f0f4362d9f4182dc2b07.png",
+    "static/media/CCLogo.svg": "/static/media/CCLogo.64300f6c132478a8df6056bf5598da75.svg",
+    "static/media/hero.png": "/static/media/hero.3953b6ea86aaad1e1b23.png",
+    "static/media/Landing-bg.png": "/static/media/Landing-bg.1d4d8e675c40bf1af0e0.png",
+    "static/media/FAQ.svg": "/static/media/FAQ.d1d6ce4d295ea7f48b97d296e43ca6cc.svg",
+    "static/media/rocket.svg": "/static/media/rocket.2c23ed69f2dd3d8e8488fd07614f5a23.svg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/helmet.svg": "/static/media/helmet.f6f8250b485bc9739408bfcedd578c74.svg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/Uniswap.png": "/static/media/Uniswap.2a05ada8cea09bdaddc5.png",
+    "static/media/Celo.png": "/static/media/Celo.ec5caad72cce0063f0aa.png",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/Deepnote.png": "/static/media/Deepnote.b69e4d9ff235612fb6c4.png",
+    "static/media/Uizard.png": "/static/media/Uizard.cd29fb3b6523f481d528.png",
+    "static/media/JoshTalks.png": "/static/media/JoshTalks.4da2db8d6cccd3be5f0d.png",
+    "static/media/Stickermule.png": "/static/media/Stickermule.23d9aa86d43cc3898d4c.png",
+    "static/media/logo.png": "/static/media/logo.b7a93c8a7bd02accd255.png",
+    "static/media/alchemy-white.png": "/static/media/alchemy-white.4ff31c2779193816cee4.png",
+    "index.html": "/index.html",
+    "static/media/Instagram.svg": "/static/media/Instagram.eaa67068d582b195b1ed6b7952242f54.svg",
+    "static/media/Subtract.svg": "/static/media/Subtract.1f007f90577bb914060a118f283a0758.svg",
+    "static/media/Twitter.svg": "/static/media/Twitter.ba000dcf0d544c615af0782df3b64070.svg",
+    "static/media/LinkedIn.svg": "/static/media/LinkedIn.3fbad3a8da1cbbacd1983698456d0f03.svg",
+    "static/media/Medium.svg": "/static/media/Medium.cfd7d9055a92d9200e8e831d6533c311.svg",
+    "static/media/Facebook.svg": "/static/media/Facebook.4a76cb87ac29e300c6a51cfd9cab7b56.svg",
+    "main.4a2b64bb.css.map": "/static/css/main.4a2b64bb.css.map",
+    "main.7ac4bf9a.js.map": "/static/js/main.7ac4bf9a.js.map",
+    "787.c02d9614.chunk.js.map": "/static/js/787.c02d9614.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a2b64bb.css",
+    "static/js/main.7ac4bf9a.js"
+  ]
+}
