@@ -1,11 +1,10 @@
 import React from "react";
-import AlchemyLogo from "../Assets/alchemy-white.png";
+import JoshTalks from "../Assets/Josh_Talk_Logo.png";
 import astronaut from "../Assets/Astronaut.png";
-import Celo from "../Assets/Celo.png";
-import Deepnote from "../Assets/Deepnote.png";
+import Brilliant from "../Assets/Brilliant Printers.png";
+import Top from "../Assets/Top One Percent Logo.png";
 import discord from "../Assets/discord.png";
 import FAQimg from "../Assets/FAQ.svg";
-import JoshTalks from "../Assets/JoshTalks.png";
 import logo from "../Assets/logo.png";
 import rocket from "../Assets/rocket.svg";
 import StickerMule from "../Assets/Stickermule.png";
@@ -141,16 +140,14 @@ export default function Landing() {
             <h1 className="about-hea">Sponsors</h1>
             <h1 className="about-head1">Title</h1>
             <a href="https://alchemy.com/?a=devsoc22" target="_blank" rel="noreferrer">
-              <img className="platinumlogo" src={titlecards} alt="">
+              <img className="titlelogo" src={titlecards} alt="">
 
               </img>
             </a>
-            <h1 className="about-head1">Platinum</h1>
-            <a href="https://uniswap.org/" target= "_blank" rel="noreferrer"></a>
-
-            <h1 className="about-head1">Silver</h1>
+           
+            <h1 className="about-head1">Bronze</h1>
             <a href="https://deepnote.com/" target="_blank" rel="noreferrer">
-              <img className="platinumlogo" src={Deepnote} alt=""></img>
+              <img className="toplogo" src={Top} alt=""></img>
             </a>
             {/* <a href="https://uizard.io/" target="_blank" rel="noreferrer">
               <img className="platinumlogo" src={Uizard} alt=""></img>
@@ -158,10 +155,13 @@ export default function Landing() {
             <a href="https://www.joshtalks.com/" target="_blank" rel="noreferrer">
               <img className="platinumlogo" src={JoshTalks} alt=""></img>
             </a>
-            <h1 className="about-head1">In Kind</h1>
+            <a href="https://www.joshtalks.com/" target="_blank" rel="noreferrer">
+              <img className="brilliantlogo" src={Brilliant} alt=""></img>
+            </a>
+            {/* <h1 className="about-head1">In Kind</h1>
             <a href="https://mule.to/p2nx" target="_blank" rel="noreferrer">
               <img className="platinumlogo" src={StickerMule} alt=""></img>
-            </a>
+            </a> */}
 
           </div>
         </div>
