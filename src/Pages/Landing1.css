@@ -98,10 +98,11 @@ a {
 .logo6 {
     height: 500px;
     width: 500px;
-    z-index: -5;
+    z-index: 5;
     position: relative;
     top: -1200px;
     right: -500px;
+    display: none;
     /* right: 100px; */
 }
 

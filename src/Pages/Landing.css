@@ -157,12 +157,13 @@ a {
 }
 
 .logo6 {
-    height: 500px;
-    width: 500px;
-    z-index: -5;
+    height: 5px;
+    width: 5px;
+    z-index: 5;
     position: relative;
     top: -1150px;
     right: -500px;
+    /* display: none; */
     /* right: 100px; */
 }
 
@@ -262,10 +263,11 @@ a {
 .spon-features {
     text-align: center;
     width: 100%;
+    height: 140vh;
     /* display: flex; */
     justify-content: center;
     align-items: center;
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
     /* height: 100vh; */
 }
 
@@ -382,6 +384,7 @@ a {
     .spon-features {
         margin-top: 40%;
         margin-bottom: 20%;
+        height: 70vh;
     }
     .timeline-features {
         width: 100%;
@@ -588,6 +591,7 @@ a {
     }
     .spon-features {
         margin-top: 0;
+        height: 70vh;
     }
 }
 

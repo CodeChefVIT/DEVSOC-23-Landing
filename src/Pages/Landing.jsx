@@ -19,24 +19,26 @@ import "./Landing.css";
 export default function Landing() {
   const accordionData = [
     {
-      title: "What's the cost of the hackathon?",
-      content: `DEVSOC 23 is completely free thanks to our sponsors! We'll also provide you with enough swags, drinks, meals throughout the hackathon.`,
+      title: "Is the hackathon free to attend?",
+      content: `Yes! DEVSOC'23 is completely free to attend thanks to our sponsors.`,
     },
     {
       title: "What's the application process like?",
-      content: `You're required to register with us on Devfolio where you'll be asked for basic details and your resume. We’ll get to know about your abilities from your past projects, GitHub profile, participation/awards in other hackathons. We'll shortlist teams for the offline hackathon round through this.`,
+      content: `You're required to register for our event on our DEVSOC registrations portal where you will be asked for basic details and for your github profile (if applicable). You're also required to register on VTOP under the "Event Registration" tab. Also join the discord link on the bottom right of this website. You can simply search "DEVSOC" in the search tab and register for the same.
+      
+      \nAfter registration you will be required to submit a document outlining the idea your team will be pursuing during the hackathon. Following the idea submission you will be eligible to attend the hackathon itself.`,
     },
     {
-      title: "I'm a fresher and I don't have a good resume. Will I be selected?",
-      content: `We will be evaluating everyone based on different metrics. We'll take into account if you're a fresher and where you stand amongst your peers. If you don't have anything technical to add to your resume, feel free to add any public speaking events or other competitions you've been to.`,
+      title: "I don't have much experience with coding or tech events. Should I still participate?",
+      content: `We will be evaluating everyone based on different metrics. We'll take into account if you're a fresher and where you stand amongst your peers. If you don't have anything technical to add to your resume, feel free to add any public speaking events or other competitions you've been to. Basically, if you're interested in coding or tech events, you're more than welcome to participate!`,
     },
     {
-      title: "Can I participate alone?",
-      content: `No! This hackathon is strictly a team competition where you can have 2-5 members in your team. Most teams aim to have a mix of people with both design and developer skills`,
+      title: "How many team members do I need to have?",
+      content: `This hackathon is a team competition where you can have 2-5 members in your team. Most teams aim to have a mix of people with both design and developer skills.`,
     },
     {
-      title: "Do I need to have specific qualifications to be a part of the hack?",
-      content: `If you love to code, you're more than welcome to participate in the hackathon.`,
+      title: "Have any more queries?",
+      content: `If you have any further doubts, feel free to ask your doubts on our Discord server (icon on the bottom right).`,
     },
   ];
   return (
@@ -60,9 +62,9 @@ export default function Landing() {
               <h1 className="heading1">
                 DEVSOC <span style={{ color: "#37ABBC" }}>‘23</span>
               </h1>
-              {/* <a className="button">
-                <a style={{ color: "white" }}>Register Now</a>
-              </a> */}
+              <a href="https://devsoc23.codechefvit.com/signup" target="_blank" rel="noreferrer" style={{ color: "white" }} className="button">
+               Register Now
+              </a>
             </div>
           </div>
         </section>
@@ -126,8 +128,8 @@ export default function Landing() {
             </h1>
 
             <div className="accordion" style={{ marginTop: "-25%" }}>
-              {accordionData.map(({ title, content }) => (
-                <FAQ title={title} content={content} />
+              {accordionData.map(({ title, content },index) => (
+                <FAQ index={index} title={title} content={content} />
               ))}
             </div>
           </div>
@@ -139,14 +141,14 @@ export default function Landing() {
           <div>
             <h1 className="about-hea">Sponsors</h1>
             <h1 className="about-head1">Title</h1>
-            <a href="https://alchemy.com/?a=devsoc22" target="_blank" rel="noreferrer">
+            <a href="https://www.amantyatech.com/" target="_blank" rel="noreferrer">
               <img className="titlelogo" src={titlecards} alt="">
 
               </img>
             </a>
            
             <h1 className="about-head1">Bronze</h1>
-            <a href="https://deepnote.com/" target="_blank" rel="noreferrer">
+            <a href="https://www.top-one-percent.com/" target="_blank" rel="noreferrer">
               <img className="toplogo" src={Top} alt=""></img>
             </a>
             {/* <a href="https://uizard.io/" target="_blank" rel="noreferrer">
@@ -155,7 +157,7 @@ export default function Landing() {
             <a href="https://www.joshtalks.com/" target="_blank" rel="noreferrer">
               <img className="platinumlogo" src={JoshTalks} alt=""></img>
             </a>
-            <a href="https://www.joshtalks.com/" target="_blank" rel="noreferrer">
+            <a href="https://www.brilliantprinters.com/" target="_blank" rel="noreferrer">
               <img className="brilliantlogo" src={Brilliant} alt=""></img>
             </a>
             {/* <h1 className="about-head1">In Kind</h1>
