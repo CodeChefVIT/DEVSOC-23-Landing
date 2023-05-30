@@ -124,18 +124,46 @@ a {
     width: 250px;
 }
 
-.platinumlogo {
+.titlelogo {
     height: 10%;
     width: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.platinumlogo {
+    height: 7%;
+    width: 14%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.toplogo {
+    height: 6%;
+    width: 12%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.brilliantlogo {
+    height: 5%;
+    width: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.platinumlogo {
+    height: 7%;
+    width: 14%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .logo6 {
-    height: 500px;
-    width: 500px;
-    z-index: -5;
+    height: 5px;
+    width: 5px;
+    z-index: 5;
     position: relative;
     top: -1150px;
     right: -500px;
+    /* display: none; */
     /* right: 100px; */
 }
 
@@ -235,10 +263,11 @@ a {
 .spon-features {
     text-align: center;
     width: 100%;
+    height: 140vh;
     /* display: flex; */
     justify-content: center;
     align-items: center;
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
     /* height: 100vh; */
 }
 
@@ -355,6 +384,7 @@ a {
     .spon-features {
         margin-top: 40%;
         margin-bottom: 20%;
+        height: 70vh;
     }
     .timeline-features {
         width: 100%;
@@ -526,9 +556,21 @@ a {
         bottom: 32px;
         right: 16px;
     }
-    .platinumlogo {
+    .titlelogo {
         height: 20%;
         width: 30%;
+    }
+    .toplogo {
+        height: 10%;
+        width: 20%;
+    }
+    .brilliantlogo {
+        height: 8%;
+        width: 16%;
+    }
+    .platinumlogo {
+        height: 10%;
+        width: 20%;
     }
 }
 
@@ -549,6 +591,7 @@ a {
     }
     .spon-features {
         margin-top: 0;
+        height: 70vh;
     }
 }
 
@@ -582,9 +625,21 @@ a {
         margin-top: -25%;
         margin-bottom: -20%;
     }
-    .platinumlogo {
+    .titlelogo {
         height: 30%;
         width: 40%;
+    }
+    .brilliantlogo {
+        height: 7%;
+        width: 16%;
+    }
+    .toplogo {
+        height: 9%;
+        width: 18%;
+    }
+    .platinumlogo {
+        height: 10%;
+        width: 20%;
     }
 }
 
