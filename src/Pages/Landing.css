@@ -278,7 +278,7 @@ a {
     justify-content: center;
     align-items: center;
     overflow-x: hidden !important;
-    margin-top: -300px !important;
+    margin-top: -200px !important;
     /* height: 100vh; */
 }
 
@@ -382,9 +382,8 @@ a {
         overflow: hidden;
     }
     .spon-features {
-        margin-top: 40%;
-        margin-bottom: 20%;
-        height: 70vh;
+        margin-top: 20%;
+        height: 100vh;
     }
     .timeline-features {
         width: 100%;
@@ -588,10 +587,6 @@ a {
   } */
     .faq-features {
         /* height: 70vh; */
-    }
-    .spon-features {
-        margin-top: 0;
-        height: 70vh;
     }
 }
 

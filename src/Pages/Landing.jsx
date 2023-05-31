@@ -137,7 +137,6 @@ export default function Landing() {
       </section>
 
       <section className="spon-features" id="sponsors">
-        <div>
           <div>
             <h1 className="about-hea">Sponsors</h1>
             <h1 className="about-head1">Title</h1>
@@ -148,25 +147,18 @@ export default function Landing() {
             </a>
            
             <h1 className="about-head1">Bronze</h1>
-            <a href="https://www.top-one-percent.com/" target="_blank" rel="noreferrer">
-              <img className="toplogo" src={Top} alt=""></img>
-            </a>
-            {/* <a href="https://uizard.io/" target="_blank" rel="noreferrer">
-              <img className="platinumlogo" src={Uizard} alt=""></img>
-            </a> */}
             <a href="https://www.joshtalks.com/" target="_blank" rel="noreferrer">
               <img className="platinumlogo" src={JoshTalks} alt=""></img>
             </a>
             <a href="https://www.brilliantprinters.com/" target="_blank" rel="noreferrer">
               <img className="brilliantlogo" src={Brilliant} alt=""></img>
             </a>
-            {/* <h1 className="about-head1">In Kind</h1>
-            <a href="https://mule.to/p2nx" target="_blank" rel="noreferrer">
-              <img className="platinumlogo" src={StickerMule} alt=""></img>
-            </a> */}
+            <h1 className="about-head1">Education Partner</h1>
+            <a href="https://www.top-one-percent.com/" target="_blank" rel="noreferrer">
+              <img className="brilliantlogo" src={Top} alt=""></img>
+            </a>
 
           </div>
-        </div>
         <img className="logo6" src={rocket} alt=""></img>
       </section>
    <section className="footer" id="contact">
