@@ -42,6 +42,14 @@ export default function NavBar() {
                                 Sponsors
                             </a>
                         </li>
+
+                        <li className="nav-item">
+                            <a href="#faq" className="nav-links"
+                                // onClick={click ? handleClick : null}
+                                activeClassName="active">
+                                FAQ's
+                            </a>
+                        </li>
                         <li className="nav-item">
                             <a href="#contact" className="nav-links"
                                 // onClick={click ? handleClick : null}
