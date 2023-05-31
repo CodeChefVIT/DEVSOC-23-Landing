@@ -167,7 +167,7 @@ export default function Landing() {
               className="vertical-timeline-element--work"
               contentStyle={{ background: '#37ABBC', color: '#fff' }}
               contentArrowStyle={{ borderRight: '7px solid  #37ABBC' }}
-              date="11:00pm - 02:00am"
+              date="DAY 2 11:00pm - 02:00am"
               iconStyle={{ background: '#37ABBC', color: '#FFF' }}
             >
               <h3 className="vertical-timeline-element-title">REVIEW 2</h3>
