@@ -58,7 +58,7 @@ export default function Footer() {
                 </a>
                 <a
                   class="hover-change"
-                  href="https://twitter.com/codechefvit?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                  href="https://twitter.com/codechefvit"
                   target="_blank"
                 >
                   <img src={twitter} alt="" />
@@ -69,10 +69,10 @@ export default function Footer() {
                   <h1>Contact Us</h1>
 
                   {/* <a href="tel:+919880093000" style="color:white">Call Thaman: +91 98800 93000</a> */}
-                  
+
 
                   <span>Call Thaman: +91 98800 93000</span>
-                  <span>Call Prathavi: +91 99746 08203</span>
+                  <span>Call Prarthavi: +91 99746 08203</span>
                   <span>Email: codechefvit@gmail.com</span>
                 </div>
                 <div class="contact-desc-address">
