@@ -248,7 +248,7 @@ a {
     justify-content: center;
     align-items: center;
     overflow-x: hidden !important;
-    height: 100vh;
+    height: 80vh;
 }
 
 .faq-features {
@@ -296,6 +296,7 @@ a {
         background-size: cover;
         background-position: center;
         overflow: hidden;
+        height: 40vh;
     }
     .showcase {
     min-height: 400px;
@@ -383,7 +384,7 @@ a {
     }
     .spon-features {
         margin-top: 20%;
-        height: 100vh;
+        height: 140vh;
     }
     .timeline-features {
         width: 100%;
@@ -400,7 +401,7 @@ a {
         display: block;
     }
     .features {
-        height: 150vh;
+        height: 40vh;
     }
     .footer {
         margin-top: 0px !important;
