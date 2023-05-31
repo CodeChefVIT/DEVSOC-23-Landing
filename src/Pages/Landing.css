@@ -430,7 +430,7 @@ a {
     display: block;
   }
   .features {
-    height: 40vh;
+    height: auto;
   }
   .footer {
     margin-top: 5% !important;
