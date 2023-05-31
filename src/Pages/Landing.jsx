@@ -15,6 +15,8 @@ import FAQ from "../Components/FAQ/faq";
 import Footer from "../Components/Footer/Footer";
 import Navbar2 from "../Components/Navbar2/Navbar2";
 import "./Landing.css";
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
 
 export default function Landing() {
   const accordionData = [
@@ -160,6 +162,104 @@ export default function Landing() {
 
           </div>
         <img className="logo6" src={rocket} alt=""></img>
+      </section>
+      <section className="" id="sponsors">
+        <div>
+          <h1 className="about-hea-new">Timeline</h1>
+          <VerticalTimeline>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                date="DAY 1 10:30am - 11:30am"
+                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            >
+              <h3 className="vertical-timeline-element-title">Opening Ceremony</h3>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{ background: 'rgb(233, 30, 99)', color: '#000' }}
+                contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
+                date="03:30pm - 04:30pm"
+                iconStyle={{ background: 'rgb(233, 30, 99)', color: '#000' }}
+            >
+              <h3 className="vertical-timeline-element-title">Speaker session</h3>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+                contentArrowStyle={{ borderRight: '7px solid  rgb(16, 204, 82)' }}
+                date="11:00pm - 02:00am"
+                iconStyle={{ background: 'rgb(16, 204, 82)', color: '#000' }}
+            >
+              <h3 className="vertical-timeline-element-title">REVIEW 1</h3>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                date="DAY 2 06:00am - 09:00am"
+                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            >
+              <h3 className="vertical-timeline-element-title">Breakfast</h3>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{ background: 'rgb(233, 30, 99)', color: '#000' }}
+                contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
+                date="03:30pm - 04:30pm"
+                iconStyle={{ background: 'rgb(233, 30, 99)', color: '#000' }}
+            >
+              <h3 className="vertical-timeline-element-title">Hacking Resumes</h3>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+                contentArrowStyle={{ borderRight: '7px solid  rgb(16, 204, 82)' }}
+                date="11:00pm - 02:00am"
+                iconStyle={{ background: 'rgb(16, 204, 82)', color: '#000' }}
+            >
+              <h3 className="vertical-timeline-element-title">Lunch</h3>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                date="03:30pm - 04:30pm"
+                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            >
+              <h3 className="vertical-timeline-element-title">Speaker session</h3>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{ background: 'rgb(233, 30, 99)', color: '#000' }}
+                contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
+                date="03:30pm - 04:30pm"
+                iconStyle={{ background: 'rgb(233, 30, 99)', color: '#000' }}
+            >
+              <h3 className="vertical-timeline-element-title">Dinner Break</h3>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+                contentArrowStyle={{ borderRight: '7px solid  rgb(16, 204, 82)' }}
+                date="11:00pm - 02:00am"
+                iconStyle={{ background: 'rgb(16, 204, 82)', color: '#000' }}
+            >
+              <h3 className="vertical-timeline-element-title">Speaker session</h3>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                date="DAY 3 09:00am - 11:00am"
+                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            >
+              <h3 className="vertical-timeline-element-title">Final Pitches</h3>
+            </VerticalTimelineElement>
+
+          </VerticalTimeline>
+        </div>
       </section>
    <section className="footer" id="contact">
         <Footer />
