@@ -185,6 +185,21 @@ a {
   z-index: 100;
 }
 
+.yantra{
+  height: 50px !important;
+}
+
+.side-fixed-btn1 {
+  border-radius: 50%;
+  width: fit-content;
+  padding: 4px 7px;
+  position: absolute;
+  top: 16px !important;
+  left: 16px;
+  transition: all 300ms ease;
+  z-index: 100;
+}
+
 .side-fixed-btn:hover {
   transform: translateY(-8px);
 }
@@ -397,7 +412,7 @@ a {
   }
   .logo3,
   .logo6 {
-    display: none;
+    display: none !important;
   }
   .logo5 {
     width: 80%;
@@ -533,7 +548,7 @@ a {
   }
   .logo3,
   .logo6 {
-    display: none;
+    display: none !important;
   }
   .logo5 {
     width: 80%;

@@ -17,6 +17,9 @@ import Navbar2 from "../Components/Navbar2/Navbar2";
 import "./Landing.css";
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import Tracks from "../Components/Tracks/Tracks";
+import Prizes from "../Components/Prizes/Prizes";
+import yantra from "../Assets/yantra.svg"
 
 export default function Landing() {
   const accordionData = [
@@ -52,6 +55,10 @@ export default function Landing() {
         </div>
       </a>
 
+      <div className="side-fixed-btn1 hover-change">
+          <img src={yantra} alt="" className="yantra" />
+        </div>
+
       <section className="hero">
         <div style={{ zIndex: 15 }}>
           {/* <Navbar /> */}
@@ -62,7 +69,7 @@ export default function Landing() {
             <img className="logo" src={logo}></img>
             <div>
               <h1 className="heading1">
-                DEVSOC <span style={{ color: "#37ABBC" }}>‘23</span>
+                DEVSOC <span style={{ color: "#37ABBC" }}>&apos;23</span>
               </h1>
               <a href="https://devsoc23.codechefvit.com/signup" target="_blank" rel="noreferrer" style={{ color: "white" }} className="button">
                 Register Now
@@ -82,7 +89,7 @@ export default function Landing() {
           <div>
             <h1 className="about-head">About Us</h1>
             <p className="about-text">
-              DEVSOC is CodeChef-VIT’s annual flagship event hoping to empower
+              DEVSOC is CodeChef-VIT&apos;s annual flagship event hoping to empower
               young minds by bringing enthusiastic technocrats and thinkers
               under one roof. This year, the fourth iteration of the hackathon
               is being held with a goal to create a sprint like event, where
@@ -96,6 +103,12 @@ export default function Landing() {
         </div>
       </section>
 
+      <section className="tracks-features" id="tracks">
+        <Tracks />
+      </section>
+      <section className="tracks-features" id="tracks">
+        <Prizes />
+      </section>
       {/* <section className="timeline-features" id="timeline">
         <img className="timeline" src={timeline}></img>
         <div
@@ -208,7 +221,7 @@ export default function Landing() {
         <div>
           <h1 className="about-hea">Sponsors</h1>
           <h1 className="about-head1">Title</h1>
-          <a href="https://www.amantyatech.com/" target="_blank" rel="noreferrer">
+          <a href="./amantya" target="_blank" rel="noreferrer">
             <img className="titlelogo" src={titlecards} alt="">
 
             </img>
