@@ -6,6 +6,7 @@ import health from "./health.svg";
 import social from "./social.svg";
 import open from "./open.svg";  
 import amantya from "./amantya.svg"
+import "tailwindcss/tailwind.css";
 
 function Tracks() {
   return (
