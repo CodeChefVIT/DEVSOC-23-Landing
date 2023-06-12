@@ -14,7 +14,7 @@ export default function Footer() {
     <>
       <section id="Contact" class="section">
         <div class="padding-container">
-          <img className="cclogo" src={Logo}></img>
+          <img className="cclogo" src={Logo} alt=""/>
           <div class="contact-content-container">
             <span class="section-title anim1" data-delay="0.1s">
               Contact
@@ -25,6 +25,7 @@ export default function Footer() {
                   class="hover-change"
                   href="https://www.facebook.com/codechefvit"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img src={facebook} alt="" />
                 </a>
@@ -32,6 +33,7 @@ export default function Footer() {
                   class="hover-change"
                   href="https://www.github.com/codechefvit"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img src={github} alt="" />
                 </a>
@@ -39,6 +41,7 @@ export default function Footer() {
                   class="hover-change"
                   href="https://www.linkedin.com/company/codechef-vit-chapter/mycompany/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img src={linkedin} alt="" />
                 </a>
@@ -46,6 +49,7 @@ export default function Footer() {
                   class="hover-change"
                   href="https://www.instagram.com/codechefvit/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img src={instagram} alt="" />
                 </a>
@@ -53,12 +57,14 @@ export default function Footer() {
                   class="hover-change"
                   href="https://www.medium.com/codechef-vit"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img src={Medium} alt="" />
                 </a>
                 <a
                   class="hover-change"
                   href="https://twitter.com/codechefvit"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   <img src={twitter} alt="" />
@@ -84,7 +90,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <img className="helmet" src={Helmet}></img>
+          <img className="helmet" src={Helmet} alt=""/>
         </div>
       </section>
     </>

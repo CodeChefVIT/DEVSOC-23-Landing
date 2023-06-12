@@ -13,6 +13,7 @@ export default function Navbar() {
           <a
             href="https://www.youtube.com/c/CodeChefVIT/videos"
             target="_blank"
+            rel="noreferrer"
             >Contact</a>
         </li>
         
