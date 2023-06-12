@@ -22,10 +22,10 @@
 
 ## Screenshots
 <p align="center">
-<img src="https://github.com/CodeChefVIT/DEVSOC-23-Landing/blob/master/Screenshots/Screenshot%201.png" alt="Project Screenshots" height="400" >
-<img src="https://github.com/CodeChefVIT/DEVSOC-23-Landing/blob/master/Screenshots/Screenshot%202.png" alt="Project Screenshots" height="400" >
-<img src="https://github.com/CodeChefVIT/DEVSOC-23-Landing/blob/master/Screenshots/Screenshot%203.png" alt="Project Screenshots" height="400" >
-<img src="https://github.com/CodeChefVIT/DEVSOC-23-Landing/blob/master/Screenshots/Screenshot%204.png" alt="Project Screenshots" height="400" >
+<img src="https://github.com/CodeChefVIT/DEVSOC-23-Landing/blob/master/Screenshots/Screenshot%201.png" alt="Project Screenshots" >
+<img src="https://github.com/CodeChefVIT/DEVSOC-23-Landing/blob/master/Screenshots/Screenshot%202.png" alt="Project Screenshots" >
+<img src="https://github.com/CodeChefVIT/DEVSOC-23-Landing/blob/master/Screenshots/Screenshot%203.png" alt="Project Screenshots" >
+<img src="https://github.com/CodeChefVIT/DEVSOC-23-Landing/blob/master/Screenshots/Screenshot%204.png" alt="Project Screenshots" >
 </p>
 
 ## Instructions to run
