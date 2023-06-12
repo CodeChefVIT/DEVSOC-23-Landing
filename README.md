@@ -6,9 +6,9 @@
 > <Subtitle>
 > The offical website for DEVSOC'23
 
----
-[![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE) 
-  [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](INSERT_UI_LINK_HERE)
+<!-- --- -->
+<!-- [![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE)  -->
+<!--   [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](INSERT_UI_LINK_HERE) -->
 
 ## Features
 - Well updated and informative.
@@ -33,7 +33,7 @@
 $ git clone https://github.com/CodeChefVIT/DEVSOC-23-Landing.git
 $ cd DEVSOC-23-Landing
 $ npm i
-$ npm run dev
+$ npm start
 ```
 
 ## Contributors
