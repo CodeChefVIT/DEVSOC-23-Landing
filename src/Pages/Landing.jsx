@@ -7,10 +7,7 @@ import discord from "../Assets/discord.png";
 import FAQimg from "../Assets/FAQ.svg";
 import logo from "../Assets/logo.png";
 import rocket from "../Assets/rocket.svg";
-import StickerMule from "../Assets/Stickermule.png";
 import titlecards from "../Assets/Title.png";
-import Uizard from "../Assets/Uizard.png";
-import uniswap from "../Assets/Uniswap.png";
 import FAQ from "../Components/FAQ/faq";
 import Footer from "../Components/Footer/Footer";
 import Navbar2 from "../Components/Navbar2/Navbar2";
@@ -66,7 +63,7 @@ export default function Landing() {
         </div>
         <section className="showcase">
           <div className="dev-container">
-            <img className="logo" src={logo}></img>
+            <img className="logo" src={logo} alt=""/>
             <div>
               <h1 className="heading1">
                 DEVSOC <span style={{ color: "#37ABBC" }}>&apos;23</span>
@@ -221,7 +218,7 @@ export default function Landing() {
         <div>
           <h1 className="about-hea">Sponsors</h1>
           <h1 className="about-head1">Title</h1>
-          <a href="./amantya" target="_blank" rel="noreferrer">
+          <a href="./amantya">
             <img className="titlelogo" src={titlecards} alt="">
 
             </img>
