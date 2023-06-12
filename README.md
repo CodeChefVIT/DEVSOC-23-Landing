@@ -27,11 +27,10 @@
 
 ## Instructions to run
 ```
-$ git clone https://github.com/CodeChefVIT/devsoc23-portal.git
-$ cd devsoc23-portal
+$ git clone https://github.com/CodeChefVIT/DEVSOC-23-Landing.git
+$ cd DEVSOC-23-Landing
 $ npm i
 $ npm run dev
->> Refer .env.example for environment variables
 ```
 
 ## Contributors
