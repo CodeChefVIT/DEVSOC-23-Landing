@@ -4,7 +4,7 @@
 # DEVSOC'23 Landing Page
 
 > <Subtitle>
-> The offical website for DEVSOC'23
+> The official website for DEVSOC'23
 
 <!-- --- -->
 <!-- [![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE)  -->
@@ -16,7 +16,7 @@
 - Resonsive for best experience on every possible screen.
 	
 ## Important Links
-- [DEVSOC Landing Page](https://hackwith.codechefvit.com)
+- [DEVSOC Landing Page](https://devsoc.codechefvit.com/)
 - [DEVSOC Frontend Repo](https://github.com/CodeChefVIT/devsoc23-portal)
 - [DEVSOC Backend Repo](https://github.com/CodeChefVIT/devsoc23-backend)
 
