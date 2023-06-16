@@ -13,7 +13,7 @@
 ## Features
 - Well updated and informative.
 - Easy to use.
-- Resonsive for best experience on every possible screen.
+- Responsive for best experience on every possible screen.
 	
 ## Important Links
 - [DEVSOC Landing Page](https://devsoc.codechefvit.com/)
