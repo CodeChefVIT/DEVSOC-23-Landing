@@ -11,7 +11,6 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Landing />} />
-          <Route path="/amantya" element={<Amantya />} />
         </Routes>
       </Router>
     </>
