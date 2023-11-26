@@ -40,7 +40,7 @@ export default function Landing() {
     },
     {
       title: "How many team members do I need to have?",
-      content: `This hackathon is a team competition where you can have 2-5 members in your team. Most teams aim to have a mix of people with both design and developer skills.`,
+      content: `This hackathon is a team competition where you can have 2-4 members in your team. Most teams aim to have a mix of people with both design and developer skills.`,
     },
     {
       title: "Have any more queries?",
@@ -50,7 +50,7 @@ export default function Landing() {
   return (
     <>
       {/* <Navbar /> */}
-      <a
+      {/* <a
         href="http://discord.codechefvit.com/"
         target="_blank"
         rel="noreferrer"
@@ -62,7 +62,7 @@ export default function Landing() {
 
       <div className="side-fixed-btn1 hover-change">
         <img src={yantra} alt="" className="yantra" />
-      </div>
+      </div> */}
 
       <section className="hero">
         <div style={{ zIndex: 15 }}>
@@ -72,11 +72,11 @@ export default function Landing() {
         <section className="showcase">
           <div className="dev-container">
             <img className="logo" src={logo} alt="" />
-            <div>
-              <h1 className="heading1">
-                DEVSOC <span style={{ color: "#37ABBC" }}>&apos;24</span>
-              </h1>
-              <a
+            {/* <div> */}
+            <h1 className="heading1">
+              DEVSOC <span style={{ color: "#37ABBC" }}>&apos;24</span>
+            </h1>
+            {/* <a
                 href="https://devsoc23.codechefvit.com/signup"
                 target="_blank"
                 rel="noreferrer"
@@ -84,8 +84,8 @@ export default function Landing() {
                 className="button"
               >
                 Register Now
-              </a>
-            </div>
+              </a> */}
+            {/* </div> */}
           </div>
         </section>
       </section>
@@ -132,16 +132,38 @@ export default function Landing() {
           </div>
         </div>
       </section> */}
-      <section className="" id="timeline">
+      <section className="" id="timeline" style={{ height: "50vh" }}>
         <div>
           <h1 className="about-hea-new">Timeline</h1>
           <h3 className="about-hea-new">Coming Soon</h3>
         </div>
       </section>
 
-      <section className="spon-features" id="sponsors">
-       
+      <section className="" id="tracks" style={{ height: "50vh" }}>
+        <div>
+          <h1 className="about-hea-new">Tracks</h1>
+          <h3 className="about-hea-new">Coming Soon</h3>
+        </div>
       </section>
+
+      <section className="" id="prizes" style={{ height: "50vh" }}>
+        <div>
+          <h1 className="about-hea-new">Prizes</h1>
+          <h3 className="about-hea-new">Coming Soon</h3>
+        </div>
+      </section>
+
+      <section
+        className="spon-features"
+        id="sponsors"
+        style={{ height: "50vh" }}
+      >
+        <div>
+          <h1 className="about-hea-new">Sponsors</h1>
+          <h3 className="about-hea-new">Coming Soon</h3>
+        </div>
+      </section>
+
       <section className="faq-features" id="faq">
         <div
           className="container"

@@ -77,8 +77,8 @@ export default function Footer() {
                   {/* <a href="tel:+919880093000" style="color:white">Call Thaman: +91 98800 93000</a> */}
 
 
-                  <span>Call Thaman: +91 98800 93000</span>
-                  <span>Call Prarthavi: +91 99746 08203</span>
+                  <span>Call Shivam: +91 79048 60756</span>
+                  <span>Call Satyam: +91 87074 78551</span>
                   <span>Email: codechefvit@gmail.com</span>
                 </div>
                 <div class="contact-desc-address">
