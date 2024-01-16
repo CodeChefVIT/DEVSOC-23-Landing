@@ -25,7 +25,7 @@ export default function Landing() {
   const accordionData = [
     {
       title: "Is the hackathon free to attend?",
-      content: `Yes! DEVSOC'23 is completely free to attend thanks to our sponsors.`,
+      content: `Yes! DEVSOC'24 is completely free to attend thanks to our sponsors.`,
     },
     {
       title: "What's the application process like?",
