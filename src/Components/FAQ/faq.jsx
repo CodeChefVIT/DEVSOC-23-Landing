@@ -15,10 +15,10 @@ const Accordion = ({ index, title, content }) => {
           <div className="accordion-content">
             You are required to register for our event on
             <a
-              target="_blank"
-              rel="noreferrer"
-              style={{ color: "#37abbc" }}
-              href="https://devsoc23.codechefvit.com/signup"
+              // target="_blank"
+              // rel="noreferrer"
+              // style={{ color: "#37abbc" }}
+              // href="https://devsoc23.codechefvit.com/signup"
             >
               {" "}
               DEVSOC registrations portal{" "}
